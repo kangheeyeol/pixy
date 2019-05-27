@@ -34,6 +34,9 @@
 #define DBG_BLOB(x) 
 #endif
 
+
+#include "stdio.h"
+
 bool CBlob::recordSegments= false;
 // Set to true for testing code only.  Very slow!
 bool CBlob::testMoments= false;
